@@ -280,13 +280,19 @@ MOTIVATION & IDEE - EIN BILD + TEXT
     justify-content: space-between;
 
     width: 100%;
-    max-height: 500px;
+    max-height: 550px;
     background-color: rgb(19, 98, 148);
     color: white;
     text-align: center;
     margin-bottom: 10px;
     font-size: 28px;
 }
+
+.elt.white {
+	background-color: white;
+}
+
+	
 
 .elt.platform {
     -webkit-flex-direction: wrap-reverse;
@@ -300,7 +306,7 @@ MOTIVATION & IDEE - EIN BILD + TEXT
 .elt img{
     padding: 0px;
     margin: 0px;
-    max-height: 500px;
+    max-height: 550px;
     max-width: 100%;
     -webkit-flex-basis: 60%;
     flex-basis: 60%;
